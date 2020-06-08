@@ -1,0 +1,125 @@
+body {
+    background: #fff;
+    color: #444;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 设置html以及body高度 */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑"!important;
+}
+
+body,
+html,
+li,
+input,
+gloabl,
+h2,
+th,
+input,
+nav,
+td,
+h1,
+embed,
+blockquote,
+ol,
+xml,
+div,
+dl,
+dt,
+dd,
+ul,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+abbr,
+p,
+header,
+hgroup,
+Section,
+figure,
+section,
+nav,
+article,
+aside,
+canvas {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    margin: 0;
+}
+
+a {
+    font-size: 100%;
+    border: 0;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+input,
+textarea {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-appearance: none;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+*+html .clearfix {
+    min-height: 1px;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:disabled {
+    background-color: #DFE9F2;
+}
+
+
+/* 
+div{
+
+} */
